@@ -1,0 +1,56 @@
+.footer {
+  padding: 50px 0;
+}
+
+.organiztion-list {
+  display: flex;
+  gap: 24px;
+
+  padding-bottom: 24px;
+  border-bottom: 1px solid #c3c3c3;
+}
+
+.organiztion-item {
+  a {
+    letter-spacing: -0.32px;
+  }
+}
+
+.personal-information {
+  a {
+    color: #a0a01f;
+    font-weight: 700;
+  }
+}
+.clause {
+  a {
+    font-weight: 500;
+  }
+}
+
+.organization-area {
+  padding-top: 24px;
+  font-size: torem(14);
+  font-weight: 500;
+  color: #7a7a7c;
+
+  .area-list {
+    display: flex;
+  }
+
+  .address {
+    display: flex;
+    &::after {
+      content: "";
+      display: block;
+      margin: 0 8px;
+      width: 1px;
+      height: 14px;
+      background-color: #c6c6c7;
+    }
+  }
+
+  .copyright {
+    padding-top: 14px;
+  }
+}

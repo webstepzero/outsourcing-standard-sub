@@ -1,0 +1,142 @@
+/* _main */
+
+//banner
+.banner {
+  position: relative;
+  background: rgba(0, 0, 0, 0.4) url("../../assets/image/img_banner.png") center
+    center/cover no-repeat;
+  background-blend-mode: multiply;
+  .inner {
+    padding: 133px 0;
+    color: #fff;
+    text-align: center;
+  }
+
+  .introduce {
+    padding-bottom: 16px;
+    font-size: torem(48);
+    font-weight: 700;
+    letter-spacing: -0.96px;
+  }
+
+  .banner-text {
+    font-size: torem(32);
+    font-weight: 500;
+    letter-spacing: -0.64px;
+  }
+}
+
+.company-vision-text {
+  padding: 90px 0 230px;
+  color: #202124;
+  font-size: torem(24);
+  font-weight: 500;
+  text-align: center;
+}
+
+//ideology
+.ideology {
+  text-align: center;
+}
+.ideology-title {
+  color: #202124;
+  font-size: torem(36);
+  font-weight: 700;
+  letter-spacing: -0.72px;
+}
+
+.ideology-text {
+  padding: 8px 0 40px;
+  color: #8b8c90;
+  font-size: torem(18);
+  line-height: torem(28);
+}
+
+.ideology-industry {
+  display: flex;
+  justify-content: center;
+  gap: 1.5625%;
+  padding-bottom: 280px;
+  text-align: left;
+
+  .industry-image {
+    padding-bottom: 13px;
+  }
+
+  .industry-text {
+    color: #8b8c90;
+    font-size: torem(14);
+    font-weight: 500;
+  }
+}
+
+.happy-industry {
+  .industry-image {
+    margin-top: 32px;
+  }
+}
+
+//history
+
+.history-text {
+  padding-bottom: 53px;
+  text-align: center;
+}
+.history-title {
+  padding-bottom: 8px;
+  font-size: torem(36);
+  font-weight: 700;
+}
+
+.history-explain {
+  color: #8b8c90;
+  font-size: torem(18);
+  font-weight: 500;
+}
+
+.history-chart {
+  padding-bottom: 120px;
+  .history-oneyear {
+    display: flex;
+    gap: 10px;
+    &:not(:first-child) {
+      margin-top: 40px;
+    }
+  }
+
+  .year {
+    width: 24.5313%;
+    border-top: 2px solid black;
+    padding-top: 20px;
+
+    font-weight: 700;
+    font-size: torem(24);
+  }
+
+  .trace-list {
+    width: 74.4531%;
+    border-top: 1px solid #8b8c90;
+  }
+
+  .trace-item {
+    display: flex;
+    // align-items: center;
+    gap: 3.7775%;
+    padding: 20px 0;
+    border-bottom: 1px solid #8b8c90;
+  }
+
+  .month {
+    margin-left: 10%;
+    //margin 수치가 xd에 정확히 기재되어있지않음
+    font-size: torem(24);
+    font-weight: 700;
+    letter-spacing: -0.48px;
+  }
+
+  .performance-item {
+    padding: 6px 0;
+    font-weight: 500;
+    font-size: torem(18);
+  }
+}

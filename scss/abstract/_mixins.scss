@@ -1,0 +1,7 @@
+/* _minxin */
+$desktop-s-width: 1280px;
+@mixin media-pc-small {
+  @media screen and (max-width: #{$desktop-s-width}) {
+    @content;
+  }
+}
